@@ -70,7 +70,7 @@ h2 {
 footer {
     clear: both;
     background: #666666;
-    color: #fff;
+    color: lightgray;
     width: 100%;
     text-align: center;
     position: fixed;
@@ -88,12 +88,12 @@ h6 {
     overflow: auto;
 }
 
-img {
+img.bio {
     width: 15em;
-    height: 10em;
+    height: 15em;
     float: left;
-    margin-right: 10px;
-    margin-top: 18px;
+    margin: 18px 10px 0 0;
+    padding-top: 5px;
 }
 
 p {
