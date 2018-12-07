@@ -1,4 +1,6 @@
 
+/* Used single style sheet for all pages because they use the same theme;
+Primary styling and styling for index.html */
 * {
     box-sizing: border-box;
 }
@@ -40,7 +42,7 @@ h1 {
     padding: 20px;
     position: absolute;
     left: 0;
-    bottom: -62px;
+    bottom: -61.5px;
 }
 
 nav {
@@ -61,6 +63,7 @@ a {
     margin: 20px auto;
     padding: 20px;
     line-height: 150%;
+    margin-bottom: 100px;
 } 
 
 h2 {
@@ -96,12 +99,12 @@ img.bio {
     padding-top: 5px;
 }
 
-p {
-    margin: 5 auto;   
-}
+/* formatting for contact.html begins */
 
 .line {
     width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .submit {
@@ -109,4 +112,42 @@ p {
     background: #4aaaa5;    
     padding: 10px 20px;
     border: none;
+}
+
+/* formatting for portfolio.html begins */
+
+.project {
+    float: left;
+    position: relative;
+    width: 33%;
+    height: 200px;
+    margin: 10px;
+    
+
+}
+
+img.projectPic {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 16.6%;
+    
+
+}
+
+.project:hover {
+    background: #666666;;
+}
+
+.project-banner {
+    width: 200px;
+    padding: 10px;
+    background: #4aaaa5;
+    position: absolute;
+    left: 16.6%;
+    bottom: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
 }
