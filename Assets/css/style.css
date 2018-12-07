@@ -51,6 +51,10 @@ nav {
     right: 0;
 }
 
+.nav:hover {
+    text-decoration-line: underline;
+}
+
 a {
     text-decoration-line: none;
     color: #777777;
@@ -122,8 +126,6 @@ img.bio {
     width: 33%;
     height: 200px;
     margin: 10px;
-    
-
 }
 
 img.projectPic {
